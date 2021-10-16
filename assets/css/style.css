@@ -154,3 +154,22 @@ input[name="radio"] {
         margin-top: 75px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .wrapper {
+        max-width: 370px;
+        height: 280px;
+    }
+    .slides {
+        height: 65%;
+    }
+    .nav {
+        margin-top: 0;
+    }
+    .slide img {
+        height: 150px;
+    }
+    .slide p {
+        margin-top: 75px;
+    }
+}
