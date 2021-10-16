@@ -133,3 +133,24 @@ input[name="radio"] {
 #rad4:checked ~ .nav .b4::after {
     background: rgb(38, 35, 35);
 }
+
+
+@media screen and (max-width: 700px) {
+    .wrapper {
+        max-width: 500px;
+        height: 400px;
+    }
+
+    .slide img {
+        height: 250px;
+    }
+
+    .nav {
+        height: unset;
+        width: unset;
+        justify-content: center;
+    }
+    .slide p {
+        margin-top: 75px;
+    }
+}
